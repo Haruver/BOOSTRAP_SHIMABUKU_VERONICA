@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: black;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin: 4px;
+    padding: 2px;
+}
+.background-nav, .articulo{
+    background-color: #E7FBBE;
+}
+
+
+.footer{
+    background-color: violet;
+    color: whitesmoke;
+    border: solid 1px black;
+    font-size: 18px;
+}
+ 
+.articulos, .navbar, .inicio{
+    background: rgb(248,228,240);
+    background: linear-gradient(0deg, rgba(248,228,240,1) 0%, rgba(231,251,190,1) 100%);
+}
+.articulos, .articulos_serv{
+    background: rgb(231,251,190);
+background: radial-gradient(circle, rgba(231,251,190,1) 23%, rgba(248,228,240,1) 65%);
+}
+@media only screen and
+  (max-width: 450px){
+
+    .html{
+        margin: 1px;
+        padding: 1px;
+        font-size: 10px;
+    }
+    .contacto_text{
+        display: none;
+    }
+}
