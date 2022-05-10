@@ -13,16 +13,26 @@
     margin: 4px;
     padding: 2px;
 }
- 
+.titulo{
+    font-size: larger;
+}
+
 .articulos, .inicio{
     background: linear-gradient(0deg, rgba(248,228,240,1) 0%, rgba(231,251,190,1) 100%);
     
 }
-
+.section_contacto{
+    background: rgb(231,251,190);
+    background: linear-gradient(360deg, rgba(231,251,190,1) 23%, rgba(248,228,240,1) 65%);
+}
 .articulos, .articulos-serv{
     background: rgb(231,251,190);
     background: radial-gradient(circle, rgba(231,251,190,1) 23%, rgba(248,228,240,1) 65%);
     padding: 20px;
+}
+.redes{
+    margin-top: 100px ;
+    list-style: none;
 }
 
 .volver{
@@ -35,7 +45,9 @@
     color: whitesmoke;
     border: solid 1px black;
     font-size: 18px;
+    padding: 2%;
 }
+
 @media only screen and
   (max-width: 450px){
 
@@ -48,10 +60,13 @@
         display: none;
     }
     
+}
+  @media only screen and (max-width:960px){
     .navbar{
         flex-wrap: nowrap;
   }
+
+  }
   
 
-}
 

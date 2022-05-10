@@ -31,9 +31,7 @@
                 </a>
             </div>
             <nav class="navbar navbar-expand-lg navbar-light">
-                <button class="navbar-toggler nav-button" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler nav-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -87,26 +85,43 @@
             <h1 class="subtitulo animate__animated animate__pulse">Contacto</h1>
             <hr>
         
-           <div class="d-flex justify-content-center">
-            <div class="card"  style="width: 7rem;">
-                <img src="../images/facebook.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <a class="card-text" href="http://www.facebook.com/hogar_huellitas" target="blank">Facebook</a>
-                </div>
+           <div class="row">
+            <div class="mb-3 col-lg-5 col-sm-12">
+                <label for="exampleFormControlInput1" class="form-label">Email</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
               </div>
-              <div class="card"  style="width: 7rem;">
-                <img src="../images/instagram.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <a class="card-text" href="http://instagram.com/hogar_huellitas" target="blank">Instagram</a>
-                </div>
+              <div class="mb-3 col-lg-7">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
-              <div class="card" style="width: 7rem;">
-                <img src="../images/whatsapp.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <a class="card-text" href="https://api.whatsapp.com/send/?phone=&text&app_absent=0" target="blank">WhatsApp</a>
-                </div>
+              <div class="d-flex justify-content-lg-end">
+                <button type="submit" class="btn btn-primary mb-3 ">Enviar</button>
               </div>
            </div>
+
+           <article class="redes d-flex justify-content-center">
+            <p>Seguinos en nuestras redes y comunicate con nosotros!</p>
+          <br>
+          <div class="contacto_redes">
+            <ul>        
+               <li>
+                <a href="http://www.facebook.com/hogar_huellitas" target="blank">Facebook</a>
+                <img src="../images/facebook.png" width="20px" alt="facebook"> 
+               </li>
+        
+                <li> 
+                 <a href="http://instagram.com/hogar_huellitas" target="blank">Instagram</a> 
+                 <img src="../images/instagram.png" width="20px" alt="instagram"> 
+                </li>
+        
+                <li> 
+                 <a href="https://api.whatsapp.com/send/?phone=&text&app_absent=0" target="blank">WhatsApp</a> 
+                 <img src="../images/whatsapp.png" width="20px" alt="whatsapp">
+                </li>
+            </ul> 
+            <br>
+          </div> 
+        </article>
         </section>
     </main>
 
@@ -116,21 +131,8 @@
         <h5>Todos los derechos reservados</h5>
         <h5>Buenos Aires, Argentina</h5>
         <h6>2022</h6>
-
-        <div class="contacto position-fixed bottom-0 end-0">
-            <a href="https://api.whatsapp.com/send/?phone=&text&app_absent=0" class="contacto_text"
-                target="blank">WhatsApp</a>
-            <img src="../images/whatsapp.png" width="20px" class="img-fluid"  alt="whatsapp">
-
-            <a href="http://instagram.com/hogar_huellitas" class="contacto_text" target="blank">Instagram</a>
-            <img src="../images/instagram.png" class="img-fluid" width="20px" alt="instagram">
-
-            <a href="http://www.facebook.com/hogar_huellitas" class="contacto_text" target="blank">Facebook</a>
-            <img src="../images/facebook.png" class="img-fluid" width="20px" alt="facebook">
-        </div>
     </footer>
 
-    <!-- scripts de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
         crossorigin="anonymous"></script>
@@ -138,5 +140,4 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
