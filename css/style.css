@@ -30,11 +30,6 @@
     justify-content: end;
 }
 
-.nos-2{
-    display: flex;
-    flex-wrap: wrap-reverse;
-}
-
 .footer{
     background-color: violet;
     color: whitesmoke;
